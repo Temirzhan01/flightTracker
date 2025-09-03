@@ -1,2 +1,2 @@
-# flightTracker
+# FlightTracker
 Test task project
