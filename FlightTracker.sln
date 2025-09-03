@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightTracker.API", "src\FlightTracker.API\FlightTracker.API.csproj", "{F33D294E-8328-492C-9DB6-000DA428EB03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightTracker.Application", "src\FlightTracker.Application\FlightTracker.Application.csproj", "{F2C8CD66-44B2-4AE1-B69B-445472262431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightTracker.Domain", "src\FlightTracker.Domain\FlightTracker.Domain.csproj", "{2D8A791A-5592-4AB7-8C2A-7931E6D30192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightTracker.Infrastructure", "src\FlightTracker.Infrastructure\FlightTracker.Infrastructure.csproj", "{4E854C63-D3CE-4398-9AD6-982EAB56092C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightTracker.Tests", "tests\FlightTracker.Tests\FlightTracker.Tests.csproj", "{69A5E757-AFC9-49CC-9CD3-7519D37E0C22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F33D294E-8328-492C-9DB6-000DA428EB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33D294E-8328-492C-9DB6-000DA428EB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33D294E-8328-492C-9DB6-000DA428EB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33D294E-8328-492C-9DB6-000DA428EB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C8CD66-44B2-4AE1-B69B-445472262431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C8CD66-44B2-4AE1-B69B-445472262431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C8CD66-44B2-4AE1-B69B-445472262431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C8CD66-44B2-4AE1-B69B-445472262431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8A791A-5592-4AB7-8C2A-7931E6D30192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8A791A-5592-4AB7-8C2A-7931E6D30192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8A791A-5592-4AB7-8C2A-7931E6D30192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8A791A-5592-4AB7-8C2A-7931E6D30192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E854C63-D3CE-4398-9AD6-982EAB56092C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E854C63-D3CE-4398-9AD6-982EAB56092C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E854C63-D3CE-4398-9AD6-982EAB56092C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E854C63-D3CE-4398-9AD6-982EAB56092C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A5E757-AFC9-49CC-9CD3-7519D37E0C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A5E757-AFC9-49CC-9CD3-7519D37E0C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A5E757-AFC9-49CC-9CD3-7519D37E0C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A5E757-AFC9-49CC-9CD3-7519D37E0C22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {469D3EC9-87F2-43DE-AF38-A541F1D70DE1}
+	EndGlobalSection
+EndGlobal
