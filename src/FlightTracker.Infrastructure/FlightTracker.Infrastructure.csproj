@@ -10,4 +10,11 @@
     <ProjectReference Include="..\FlightTracker.Domain\FlightTracker.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Persistence\Repositories\" />
+    <Folder Include="Persistence\DbContext\" />
+    <Folder Include="Persistence\Configurations\" />
+  </ItemGroup>
+
 </Project>

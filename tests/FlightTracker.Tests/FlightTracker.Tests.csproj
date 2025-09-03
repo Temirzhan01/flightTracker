@@ -17,11 +17,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FlightTracker.Application\FlightTracker.Application.csproj" />
+    <Using Include="Xunit" />
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Xunit" />
+    <Folder Include="Moq\" />
+    <Folder Include="IntegrationTests\" />
+    <Folder Include="UnitTests\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\FlightTracker.Application\FlightTracker.Application.csproj" />
   </ItemGroup>
 
 </Project>
